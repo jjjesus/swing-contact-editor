@@ -23,12 +23,16 @@ public class ContactEditorUI extends javax.swing.JFrame {
      */
     public ContactEditorUI() {
         initComponents();
+        myInitComponents();
+    }
+
+    private void myInitComponents() {
         myGroup = new javax.swing.ButtonGroup();
         myRadio1 = new javax.swing.JRadioButton("btn1 ");
         myRadio2 = new javax.swing.JRadioButton("btn2 ");
         
         /*
-         * Right-click on this panel and Set Layout > Flow Layout
+        * Right-click on this panel and Set Layout > Flow Layout
         */
         jPanel3.add(myRadio1);
         jPanel3.add(myRadio2);
