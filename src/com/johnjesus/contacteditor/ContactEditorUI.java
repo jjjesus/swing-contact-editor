@@ -79,6 +79,7 @@ public class ContactEditorUI extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(204, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Name"));
 
         jLabel1.setText("First Name:");
@@ -153,6 +154,7 @@ public class ContactEditorUI extends javax.swing.JFrame {
                 .addContainerGap(40, Short.MAX_VALUE))
         );
 
+        jPanel2.setBackground(new java.awt.Color(204, 255, 204));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("E-mail"));
 
         jLabel7.setText("Email Address:");
@@ -279,6 +281,7 @@ public class ContactEditorUI extends javax.swing.JFrame {
 
         jButton6.setText("OK");
 
+        jPanel3.setBackground(new java.awt.Color(255, 204, 204));
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("My Stuff"));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
